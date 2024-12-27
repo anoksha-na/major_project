@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}" />
+    <!-- Include Font Awesome for the voice icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="result-box">
+        <h1>Prediction Result</h1>
+        <div class="result-content">
+            <div class="lhs">
+                <h3>Prediction:</h3>
+                <p>{{ prediction }}</p>
+                <h3>Uploaded Image:</h3>
+                <img src="{{ url_for('uploaded_file', filename=image_filename) }}" alt="Uploaded Image">
+            </div>
+            <div class="rhs">
+                <h3>Extracted Report:</h3>
+                <p id="report">{{ report }}</p> <!-- Make sure to give it an id -->
+            </div>
+        </div>
+ 
+        <button class="voice-button" onclick="speakReport()">
+            <i class="fas fa-volume-up"></i> Listen to Report
+        </button>
+    </div>
+
+    <script>
+        function speakReport() {
+            const reportText = document.getElementById("report").innerText; // Get the report text
+            const synth = window.speechSynthesis;
+            const utterance = new SpeechSynthesisUtterance(reportText);
+            synth.speak(utterance);
+        }
+    </script>
+</body>
+</html>

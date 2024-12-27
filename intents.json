@@ -1,0 +1,124 @@
+{
+    "intents": [
+        {
+            "tags": ["greeting"],
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day", "Hi", "Hey there", "Good morning", "Good evening"],
+            "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+            "context": [""]
+        },
+        {
+            "tags": ["goodbye"],
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "cya", "See ya", "Take care", "Have a good day"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tags": ["thanks"],
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Appreciate it", "Thank you so much", "Much appreciated"],
+            "responses": ["My pleasure", "You're welcome"],
+            "context": [""]
+        },
+        {
+            "tags": ["what_is_adenocarcinoma"],
+            "patterns": ["What is Lung Adenocarcinoma?", "Can you explain what Adenocarcinoma is?", "What does Lung Adenocarcinoma mean?", "Tell me about Lung Adenocarcinoma", "Explain Lung Adenocarcinoma", "Describe Lung Adenocarcinoma", "What is Adenocarcinoma in the lungs?", "What are the characteristics of Lung Adenocarcinoma?"],
+            "responses": ["Lung adenocarcinoma is a type of lung cancer that starts in the cells that line the lungs. It usually grows slowly and starts in the outer part of the lung."],
+            "context": [""]
+        },
+        {
+            "tags": ["what_is_benign_tissue"],
+            "patterns": ["What is Lung Benign Tissue?", "Can you explain benign tissue in the lungs?", "What does benign mean in lung tissue?", "Tell me about benign lung tissue", "Explain benign lung tissue", "Describe benign lung tissue", "What is benign tissue in the lungs?", "What are examples of benign lung tissue?", "Is benign lung tissue cancerous?"],
+            "responses": ["Lung benign tissue refers to non-cancerous growths in the lungs. These are not life-threatening and do not spread to other parts of the body. Examples include hamartomas and inflammatory nodules."],
+            "context": [""]
+        },
+        {
+            "tags": ["what_is_squamous_cell_carcinoma"],
+            "patterns": ["What is Lung Squamous Cell Carcinoma?", "Can you explain squamous cell carcinoma?", "What does Lung Squamous Cell Carcinoma mean?", "Tell me about Lung Squamous Cell Carcinoma", "Explain Lung Squamous Cell Carcinoma", "Describe Lung Squamous Cell Carcinoma", "What is Squamous Cell Carcinoma in the lungs?", "What are the characteristics of Lung Squamous Cell Carcinoma?"],
+            "responses": ["Lung squamous cell carcinoma is a type of lung cancer that starts in the squamous cells, which line the inner airways of the lungs. It often develops in the central part of the lung."],
+            "context": [""]
+        },
+        {
+            "tags": ["symptoms_of_adenocarcinoma"],
+            "patterns": ["What are the symptoms of Lung Adenocarcinoma?", "Can you list the symptoms of adenocarcinoma?", "What signs should I watch for with adenocarcinoma?", "Tell me the symptoms of Lung Adenocarcinoma", "What are the signs of Lung Adenocarcinoma?", "Describe the symptoms of Lung Adenocarcinoma", "What are the common symptoms of Lung Adenocarcinoma?", "How do I know if I have Lung Adenocarcinoma?"],
+            "responses": ["Common symptoms of lung adenocarcinoma include a long-lasting cough, chest pain, shortness of breath, and coughing up blood. Fatigue and weight loss may also occur."],
+            "context": [""]
+        },
+        {
+            "tags": ["symptoms_of_squamous_cell_carcinoma"],
+            "patterns": ["What are the symptoms of Lung Squamous Cell Carcinoma?", "Can you list the symptoms of squamous cell carcinoma?", "What signs should I watch for with squamous cell carcinoma?", "Tell me the symptoms of Lung Squamous Cell Carcinoma", "What are the signs of Lung Squamous Cell Carcinoma?", "Describe the symptoms of Lung Squamous Cell Carcinoma", "What are the common symptoms of Lung Squamous Cell Carcinoma?", "How do I know if I have Lung Squamous Cell Carcinoma?"],
+            "responses": ["Symptoms of lung squamous cell carcinoma can include a long-lasting cough, chest pain, hoarseness, and coughing up blood. In some cases, you may have trouble swallowing."],
+            "context": [""]
+        },
+        {
+            "tags": ["is_benign_tissue_harmful"],
+            "patterns": ["Is Lung Benign Tissue harmful?", "Should I be concerned about benign lung tissue?", "Is benign lung tissue dangerous?", "Can benign lung tissue cause problems?", "Is benign lung tissue safe?", "Is benign lung tissue something to worry about?", "Can benign lung tissue be harmful?", "What are the risks associated with benign lung tissue?"],
+            "responses": ["Lung benign tissue is usually not harmful and does not spread like cancer. However, some benign growths can cause discomfort or lead to problems if they grow large or interfere with lung function."],
+            "context": [""]
+        },
+        {
+            "tags": ["treatment_for_adenocarcinoma"],
+            "patterns": ["What is the treatment for Lung Adenocarcinoma?", "How is adenocarcinoma treated?", "What are the treatment options for lung adenocarcinoma?", "Tell me about the treatment for Lung Adenocarcinoma", "How do you treat Lung Adenocarcinoma?", "Describe the treatment for Lung Adenocarcinoma", "What are the common treatments for Lung Adenocarcinoma?", "What are the steps to treat Lung Adenocarcinoma?"],
+            "responses": ["Treatment for lung adenocarcinoma often includes surgery, chemotherapy, radiation therapy, or targeted therapies, depending on the stage of the cancer."],
+            "context": [""]
+        },
+        {
+            "tags": ["treatment_for_squamous_cell_carcinoma"],
+            "patterns": ["What is the treatment for Lung Squamous Cell Carcinoma?", "How is squamous cell carcinoma treated?", "What are the treatment options for lung squamous cell carcinoma?", "Tell me about the treatment for Lung Squamous Cell Carcinoma", "How do you treat Lung Squamous Cell Carcinoma?", "Describe the treatment for Lung Squamous Cell Carcinoma", "What are the common treatments for Lung Squamous Cell Carcinoma?", "What are the steps to treat Lung Squamous Cell Carcinoma?"],
+            "responses": ["Treatment options for lung squamous cell carcinoma include surgery, radiation therapy, chemotherapy, and immunotherapy. The choice of treatment depends on the stage of the cancer and its location."],
+            "context": [""]
+        },
+        {
+            "tags": ["diagnosis_of_benign_tissue"],
+            "patterns": ["How is Lung Benign Tissue diagnosed?", "What tests are used to diagnose benign lung tissue?", "How do doctors determine if lung tissue is benign?", "Tell me about the diagnosis of benign lung tissue", "How do you find out if lung tissue is benign?", "Describe the diagnosis of benign lung tissue", "What are the steps to diagnose benign lung tissue?", "What are the diagnostic methods for benign lung tissue?"],
+            "responses": ["Diagnosis of lung benign tissue is usually done through imaging tests such as X-rays or CT scans, followed by a biopsy to determine whether the growth is benign or malignant."],
+            "context": [""]
+        },
+        {
+            "tags": ["can_adenocarcinoma_spread"],
+            "patterns": ["Can Lung Adenocarcinoma spread to other parts of the body?", "Does adenocarcinoma metastasize?", "Can adenocarcinoma spread?", "Tell me if Lung Adenocarcinoma can spread", "Does Lung Adenocarcinoma spread?", "Can Lung Adenocarcinoma spread to other organs?", "Describe how Lung Adenocarcinoma can spread", "What happens when Lung Adenocarcinoma spreads?"],
+            "responses": ["Yes, lung adenocarcinoma can spread to other parts of the body, such as the brain, liver, and bones. This process is called metastasis, and it requires prompt treatment."],
+            "context": [""]
+        },
+        {
+            "tags": ["prognosis_of_squamous_cell_carcinoma"],
+            "patterns": ["What is the prognosis for Lung Squamous Cell Carcinoma?", "Can you explain the prognosis for squamous cell carcinoma?", "What is the outlook for lung squamous cell carcinoma patients?", "Tell me about the prognosis for Lung Squamous Cell Carcinoma", "What is the future outlook for Lung Squamous Cell Carcinoma?", "Describe the prognosis for Lung Squamous Cell Carcinoma", "What is the expected outcome for Lung Squamous Cell Carcinoma?", "What are the survival rates for Lung Squamous Cell Carcinoma?"],
+            "responses": ["The prognosis for lung squamous cell carcinoma depends on the stage at diagnosis. Early-stage cancers have a better prognosis, with higher survival rates. Later-stage cancers are more challenging to treat but treatment options are available."],
+            "context": [""]
+        },
+        {
+            "tags": ["general_lung_cancer"],
+            "patterns": ["What is lung cancer?", "Can you explain what lung cancer is?", "What types of lung cancer are there?", "What is lung cancer caused by?", "Is lung cancer common?", "Tell me about lung cancer", "Explain lung cancer", "Describe lung cancer", "What are the types of lung cancer?", "How does lung cancer develop?"],
+            "responses": ["Lung cancer is a type of cancer that begins in the lungs, commonly caused by smoking, exposure to radon gas, or environmental toxins. It is one of the most common cancers and can be classified as non-small cell lung cancer or small cell lung cancer."],
+            "context": [""]
+        },
+        {
+            "tags": ["lung_cancer_symptoms"],
+            "patterns": ["What are the symptoms of lung cancer?", "How can I tell if I have lung cancer?", "What signs should I watch for with lung cancer?", "Does lung cancer have symptoms?", "Tell me the symptoms of lung cancer", "What are the signs of lung cancer?", "Describe the symptoms of lung cancer", "What are the common symptoms of lung cancer?", "How do I know if I have lung cancer?"],
+            "responses": ["Symptoms of lung cancer can include a long-lasting cough, chest pain, shortness of breath, hoarseness, and coughing up blood. Other symptoms might include unexplained weight loss, fatigue, and loss of appetite."],
+            "context": [""]
+        },
+        {
+            "tags": ["lung_cancer_diagnosis"],
+            "patterns": ["How is lung cancer diagnosed?", "What tests diagnose lung cancer?", "How do doctors find lung cancer?", "How do you detect lung cancer?", "Tell me about the diagnosis of lung cancer", "How do you find out if you have lung cancer?", "Describe the diagnosis of lung cancer", "What are the steps to diagnose lung cancer?", "What are the diagnostic methods for lung cancer?"],
+            "responses": ["Lung cancer is diagnosed through a combination of imaging tests like X-rays or CT scans, biopsy, and other diagnostic tests such as bronchoscopy or PET scans to examine lung tissue and confirm the presence of cancer."],
+            "context": [""]
+        },
+        {
+            "tags": ["lung_cancer_causes"],
+            "patterns": ["What causes lung cancer?", "Can smoking cause lung cancer?", "Is lung cancer genetic?", "How do people get lung cancer?", "Tell me the causes of lung cancer", "What are the reasons for lung cancer?", "Describe the causes of lung cancer", "What are the risk factors for lung cancer?", "Is lung cancer hereditary?"],
+            "responses": ["Lung cancer is most commonly caused by smoking, but other risk factors include exposure to secondhand smoke, environmental pollutants like asbestos or radon, and a family history of lung cancer."],
+            "context": [""]
+        },
+        {
+            "tags": ["lung_cancer_treatment"],
+            "patterns": ["What are the treatment options for lung cancer?", "How is lung cancer treated?", "Can lung cancer be cured?", "What is the best treatment for lung cancer?", "Tell me about the treatment for lung cancer", "How do you treat lung cancer?", "Describe the treatment for lung cancer", "What are the common treatments for lung cancer?", "What are the steps to treat lung cancer?"],
+            "responses": ["Treatment options for lung cancer depend on the type and stage but may include surgery, radiation therapy, chemotherapy, immunotherapy, and targeted drug therapies. Early-stage lung cancer has a better chance of being treated successfully."],
+            "context": [""]
+        },
+        {
+            "tags": ["histopathological_images"],
+            "patterns": ["What are histopathological images?", "Can you explain histopathological images?", "What is the role of histopathological images in lung cancer?", "How do histopathological images help in diagnosing cancer?", "Tell me about histopathological images", "Explain histopathological images", "Describe histopathological images", "What are the uses of histopathological images in lung cancer?", "How are histopathological images used in lung cancer diagnosis?"],
+            "responses": ["Histopathological images are microscopic images of tissue samples used to examine and diagnose diseases like cancer. In lung cancer diagnosis, they help doctors identify the type and stage of cancer by analyzing the cellular structure of lung tissue."],
+            "context": [""]
+        }
+    ]
+}

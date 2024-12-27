@@ -1,0 +1,75 @@
+{
+    "contexts": [
+        "Lung cancer is a malignant tumor that begins in the lungs. The two main types are small cell lung cancer (SCLC) and non-small cell lung cancer (NSCLC). Common symptoms include persistent cough, chest pain, coughing up blood, and shortness of breath. Risk factors include smoking, exposure to secondhand smoke, family history, and exposure to radon gas or asbestos.",
+        
+        "Non-small cell lung cancer (NSCLC) accounts for about 85% of lung cancers. The main subtypes are adenocarcinoma, squamous cell carcinoma, and large cell carcinoma. Adenocarcinoma typically occurs in the outer parts of the lung and is the most common type in non-smokers. Squamous cell carcinoma is often linked to smoking and usually occurs in the central part of the lungs.",
+        
+        "Treatment options for lung cancer depend on the type, stage, and patient's overall health. Early-stage cancer may be treated with surgery (wedge resection, lobectomy, or pneumonectomy). Advanced stages often require combination therapy including chemotherapy, radiation therapy, immunotherapy, or targeted drug treatments. The 5-year survival rate varies significantly based on the stage at diagnosis.",
+        
+        "Lung cancer staging uses the TNM system: Tumor size (T1-T4), lymph Node involvement (N0-N3), and Metastasis (M0-M1). Stage I means the cancer is localized to the lung, Stage II has spread to nearby lymph nodes, Stage III has spread to regional lymph nodes or structures, and Stage IV has spread to distant organs.",
+        
+        "Prevention and screening are crucial in lung cancer management. Regular screening with low-dose CT scans is recommended for high-risk individuals. Smoking cessation is the most effective prevention method. Other preventive measures include avoiding secondhand smoke, testing homes for radon, and minimizing exposure to workplace carcinogens."
+    ],
+    
+    "questions": [
+        "What are the main types of lung cancer?",
+        "What are common symptoms of lung cancer?",
+        "How is lung cancer staged?",
+        "What are the treatment options for lung cancer?",
+        "What is adenocarcinoma?",
+        "What is squamous cell carcinoma?",
+        "How can lung cancer be prevented?",
+        "What is the TNM staging system?",
+        "Who should get screened for lung cancer?",
+        "What are the survival rates for lung cancer?"
+    ],
+    
+    "answers": [
+        "The two main types are small cell lung cancer (SCLC) and non-small cell lung cancer (NSCLC).",
+        "Common symptoms include persistent cough, chest pain, coughing up blood, and shortness of breath.",
+        "Lung cancer is staged using the TNM system, from Stage I (localized) to Stage IV (metastatic).",
+        "Treatment options include surgery, chemotherapy, radiation therapy, immunotherapy, and targeted drug therapy.",
+        "Adenocarcinoma is a type of NSCLC that typically occurs in the outer parts of the lung and is common in non-smokers.",
+        "Squamous cell carcinoma is a type of NSCLC that typically occurs in the central lungs and is often linked to smoking.",
+        "Prevention methods include smoking cessation, avoiding secondhand smoke, radon testing, and minimizing exposure to carcinogens.",
+        "TNM stands for Tumor size, lymph Node involvement, and Metastasis presence.",
+        "High-risk individuals, especially current or former heavy smokers aged 50-80, should get regular screening.",
+        "The 5-year survival rate varies significantly based on the stage at diagnosis, from 60% for localized to 6% for distant spread."
+    ],
+    
+    "conditions": {
+        "normal": {
+            "keywords": ["normal", "healthy", "clear", "negative"],
+            "info": "The lung tissue appears normal with no visible signs of cancer or other significant abnormalities. Regular screening and preventive measures are recommended.",
+            "recommendations": [
+                "Continue regular health check-ups as recommended by your healthcare provider",
+                "Maintain a healthy lifestyle with regular exercise and balanced diet",
+                "If you smoke, consider a smoking cessation program",
+                "Be aware of any changes in respiratory health and report them to your doctor",
+                "Consider regular screening if you are in a high-risk group"
+            ]
+        },
+        "aca": {
+            "keywords": ["aca", "adenocarcinoma", "peripheral", "outer lung"],
+            "info": "Adenocarcinoma is detected, which is a type of non-small cell lung cancer typically occurring in the outer parts of the lung. It's the most common type of lung cancer in non-smokers and women.",
+            "recommendations": [
+                "Schedule an immediate consultation with an oncologist",
+                "Additional imaging tests may be needed for precise staging",
+                "Consider genetic testing for potential targeted therapy options",
+                "Discuss treatment plan options including surgery, chemotherapy, and targeted therapy",
+                "Join a support group for lung cancer patients"
+            ]
+        },
+        "scc": {
+            "keywords": ["scc", "squamous", "squamous cell", "central"],
+            "info": "Squamous cell carcinoma is detected, a type of non-small cell lung cancer typically occurring in the central part of the lungs near the bronchi. It's strongly associated with smoking history.",
+            "recommendations": [
+                "Immediate consultation with an oncologist is required",
+                "If you smoke, immediate smoking cessation is crucial",
+                "Complete staging workup will be needed",
+                "Discuss treatment options including surgery, radiation, and chemotherapy",
+                "Consider pulmonary rehabilitation program"
+            ]
+        }
+    }
+}
