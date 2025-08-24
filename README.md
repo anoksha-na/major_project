@@ -69,6 +69,8 @@ major_project/
 ├── *.js                     # JavaScript files
 ├── i3.jpg / i4.png          # Sample assets
 └── README.md                # Project documentation
+```
+
 
 ## Installation
 
@@ -76,6 +78,9 @@ major_project/
    ```bash
    git clone https://github.com/anoksha-na/major_project.git
    cd major_project
-
+   
 pip install -r requirements.txt
 
+python app1.py
+
+http://127.0.0.1:5000/
