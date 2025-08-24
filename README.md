@@ -1,4 +1,4 @@
-# Major Project: AI-Powered Medical Diagnosis Platform
+# AI-Powered Medical Diagnosis Platform
 
 An integrated AI-based platform for medical image classification and interactive chatbot assistance, designed to support healthcare professionals in diagnosing cancer and related conditions.  
 
@@ -47,24 +47,28 @@ This project combines computer vision, natural language processing, and web tech
 
 ## Project Structure
 
+## Project Structure
+
+```plaintext
 major_project/
-├── app1.py # Main Flask app
+├── app1.py                  # Main Flask app
 ├── customised_renet_model.py # Customized ResNet for cancer classification
-├── chatbott.py # Chatbot implementation
-├── chat_test.py # Chatbot testing script
-├── chatbot_model.h5 # Trained chatbot model
-├── intents.json # Chatbot intents
-├── medical_knowledge.json # Additional chatbot knowledge base
-├── users.db # SQLite database
-├── pdf.py # PDF report generator
-├── vc_ass.py # Voice assistant module
-├── classes.pkl # Saved class labels
-├── words.pkl # Saved tokenized words
-├── writing.py # Utility script
-├── *.html # Frontend templates (home, login, dashboard, chatbot, report, result)
-├── *.css # Stylesheets for UI
-├── *.js # JavaScript files
-├── i3.jpg / i4.png # Sample assets
-└── README.md # Project documentation
+├── chatbott.py              # Chatbot implementation
+├── chat_test.py             # Chatbot testing script
+├── chatbot_model.h5         # Trained chatbot model
+├── intents.json             # Chatbot intents
+├── medical_knowledge.json   # Additional chatbot knowledge base
+├── users.db                 # SQLite database
+├── pdf.py                   # PDF report generator
+├── vc_ass.py                # Voice assistant module
+├── classes.pkl              # Saved class labels
+├── words.pkl                # Saved tokenized words
+├── writing.py               # Utility script
+├── *.html                   # Frontend templates (home, login, dashboard, chatbot, report, result)
+├── *.css                    # Stylesheets for UI
+├── *.js                     # JavaScript files
+├── i3.jpg / i4.png          # Sample assets
+└── README.md                # Project documentation
+
 
 
