@@ -70,5 +70,12 @@ major_project/
 ├── i3.jpg / i4.png          # Sample assets
 └── README.md                # Project documentation
 
+## Installation
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/anoksha-na/major_project.git
+   cd major_project
+
+pip install -r requirements.txt
 
